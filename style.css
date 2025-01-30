@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #403d39;
+  background-color: #fffcf2;
+}
+
+article {
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #252422;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 5rem;
+  color: #252422;
+  background-color: #eb5e28;
+  padding: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card img {
+  max-width: 70%;
+  height: auto;
+}
+
+.blog-title {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
