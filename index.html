@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buzzfeed</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,18 +15,18 @@
   <body>
     <header>
       <nav class="nav-bar">
-        <img src="logo" alt="this is the blog logo" />
+        <img src="logo.png" class="logo" alt="this is the blog logo" />
         <ul class="nav-links">
           <li><a class="nav-link" href="#">News</a></li>
           <li><a class="nav-link" href="#">Shop</a></li>
           <li><a class="nav-link" href="#">Contact Us</a></li>
-          <li><button>login</button></li>
+          <li><button class="login-button">Login</button></li>
         </ul>
       </nav>
     </header>
     <article>
       <h1 class="blog-title">
-        Which Fast Food Burger Reigns Supreme in Stockholm? We Tried Them All!
+        Which Fast Food Burger Reigns Supreme in Stockholm? <br> We Tried Them All!
       </h1>
       <div class="cards">
         <div class="card">
@@ -35,7 +35,7 @@
             alt="max"
           />
           <div class="card-text">
-            <h2>Max</h2>
+            <h2 class="card-title">Max</h2>
             <p>
               Sweden’s pride and joy, Max isn’t just another burger chain—it’s a
               national treasure. With juicy patties, next-level sauces, and
@@ -48,7 +48,7 @@
               <div>&#9733;</div>
               <p>Rating: 4.8/5</p>
             </div>
-            <a href="#">Visit Max</a>
+            <a href="https://www.maxburgers.com/" target="_blank">Visit Max</a>
           </div>
         </div>
         <div class="card">
@@ -57,7 +57,7 @@
             alt="burger king"
           />
           <div class="card-text">
-            <h2>Burger King</h2>
+            <h2 class="card-title"=>Burger King</h2>
             <p>
               Flame-grilled goodness, that signature smoky taste, and fries that
               are criminally underrated—Burger King knows how to bring the heat.
@@ -69,7 +69,9 @@
               <div>&#9733;</div>
               <p>Rating: 3.9/5</p>
             </div>
-            <a href="#">Visit Burger King</a>
+            <a href="https://burgerking.se/" target="_blank"
+              >Visit Burger King</a
+            >
           </div>
         </div>
         <div class="card">
@@ -78,7 +80,7 @@
             alt="mcdonalds"
           />
           <div class="card-text">
-            <h2>McDonald's</h2>
+            <h2 class="card-title"=>McDonald's</h2>
             <p>
               The OG. The legend. The place that turns your ‘just one
               cheeseburger’ craving into a full-blown feast. McDonald’s may not
@@ -91,7 +93,9 @@
               <div>&#9733;</div>
               <p>Rating: 4.0/5</p>
             </div>
-            <a href="#">Visit McDonald's</a>
+            <a href="https://www.mcdonalds.com/se/sv-se.html" target="_blank"
+              >Visit McDonald's</a
+            >
           </div>
         </div>
         <div class="card">
@@ -100,7 +104,7 @@
             alt="bastard burgers"
           />
           <div class="card-text">
-            <h2>Bastard Burgers</h2>
+            <h2 class="card-title"=>Bastard Burgers</h2>
             <p>
               A little pricier? Yeah. Worth it? Absolutely. Bastard Burgers is
               where street food meets next-level quality. Locally sourced beef,
@@ -112,7 +116,9 @@
               <div>&#9733;</div>
               <p>Rating: 4.5/5</p>
             </div>
-            <a href="#">Visit Bastard Burgers</a>
+            <a href="https://bastardburgers.com/se/" target="_blank"
+              >Visit Bastard Burgers</a
+            >
           </div>
         </div>
         <div class="card">
@@ -121,7 +127,7 @@
             alt="kfc"
           />
           <div class="card-text">
-            <h2>KFC</h2>
+            <h2 class="card-title"=>KFC</h2>
             <p>
               Okay, we know what you're thinking—KFC? In a burger ranking? But
               hear us out. The Zinger Burger is a fiery masterpiece, and if
@@ -134,14 +140,14 @@
               <div>&#9733;</div>
               <p>Rating: 3.7/5</p>
             </div>
-            <a href="#">Visit KFC</a>
+            <a href="https://www.kfc.nu/" target="_blank">Visit KFC</a>
           </div>
         </div>
       </div>
     </article>
     <footer>
       <p>All Rights Reserved Blog &#169; 2025</p>
-      <a href="#">info@blogsite.com</a>
+      <a href="#" class="email">info@blogsite.com</a>
     </footer>
   </body>
 </html>
