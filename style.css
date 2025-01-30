@@ -73,7 +73,7 @@ h2 {
 
 .login-button:hover {
   background-color: #f0ede4;
-  transition: all 0.1s ease;
+  transition: all 0.1s ease-in-out;
   transform: scale(1.03);
 }
 
@@ -151,5 +151,5 @@ footer {
 .email:hover,
 .email:active {
   color: #f18e69;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
